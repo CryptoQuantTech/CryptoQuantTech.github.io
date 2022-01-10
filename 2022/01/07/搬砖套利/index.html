@@ -1,0 +1,234 @@
+<!DOCTYPE html><html lang="zn-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>搬砖套利 | 夹子机器人|夹单机器人|币圈科学家</title><meta name="keywords" content="量化交易,搬砖套利"><meta name="author" content="CryptoQuantTech"><meta name="copyright" content="CryptoQuantTech"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="小白搭建比特币搬砖套利系统源代码地址：wequant-org&#x2F;liveStrategyEngine —–以下是正文，欢迎转载—– 一、比特币搬砖的基本原理 比特币搬砖是一种跨市场套利策略。其基本原理是在币值低的交易所买入比特币，同时在币值高的交易所卖出同等数量的比特币，从而实现稳定盈利。 假设我们在火币网放置如下初始仓位： BTC：4 CNY：10,000 在另一个交易所（比如OKCoin）放置完">
+<meta property="og:type" content="article">
+<meta property="og:title" content="搬砖套利">
+<meta property="og:url" content="https://cryptoquanttech.github.io/2022/01/07/%E6%90%AC%E7%A0%96%E5%A5%97%E5%88%A9/index.html">
+<meta property="og:site_name" content="夹子机器人|夹单机器人|币圈科学家">
+<meta property="og:description" content="小白搭建比特币搬砖套利系统源代码地址：wequant-org&#x2F;liveStrategyEngine —–以下是正文，欢迎转载—– 一、比特币搬砖的基本原理 比特币搬砖是一种跨市场套利策略。其基本原理是在币值低的交易所买入比特币，同时在币值高的交易所卖出同等数量的比特币，从而实现稳定盈利。 假设我们在火币网放置如下初始仓位： BTC：4 CNY：10,000 在另一个交易所（比如OKCoin）放置完">
+<meta property="og:locale" content="zn_CN">
+<meta property="og:image" content="https://s2.loli.net/2021/12/21/BAYbmvrPcjp4aOJ.jpg">
+<meta property="article:published_time" content="2022-01-07T04:26:30.000Z">
+<meta property="article:modified_time" content="2022-01-07T07:49:07.323Z">
+<meta property="article:author" content="CryptoQuantTech">
+<meta property="article:tag" content="量化交易">
+<meta property="article:tag" content="搬砖套利">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2021/12/21/BAYbmvrPcjp4aOJ.jpg"><link rel="shortcut icon" href="https://s2.loli.net/2022/01/10/ODxRoICcEYbBaA3.jpg"><link rel="canonical" href="https://cryptoquanttech.github.io/2022/01/07/%E6%90%AC%E7%A0%96%E5%A5%97%E5%88%A9/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: '',
+  enable_page_level_ads: 'true'
+});</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":false,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '搬砖套利',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-01-07 15:49:07'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.0.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://s2.loli.net/2021/12/21/kjrfoA8YxaIV6cM.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">3</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">4</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s2.loli.net/2021/12/21/BAYbmvrPcjp4aOJ.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">夹子机器人|夹单机器人|币圈科学家</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">搬砖套利</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-01-07T04:26:30.000Z" title="Created 2022-01-07 12:26:30">2022-01-07</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-01-07T07:49:07.323Z" title="Updated 2022-01-07 15:49:07">2022-01-07</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="搬砖套利"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="小白搭建比特币搬砖套利系统"><a href="#小白搭建比特币搬砖套利系统" class="headerlink" title="小白搭建比特币搬砖套利系统"></a>小白搭建比特币搬砖套利系统</h1><p>源代码地址：<a target="_blank" rel="noopener" href="https://github.com/wequant-org/liveStrategyEngine">wequant-org/liveStrategyEngine</a></p>
+<p><em>—–以下是正文，欢迎转载—–</em></p>
+<p><strong>一、比特币搬砖的基本原理</strong></p>
+<p><em>比特币搬砖</em>是一种跨市场套利策略。其基本原理是在币值低的交易所买入比特币，同时在币值高的交易所卖出同等数量的比特币，从而实现稳定盈利。</p>
+<p>假设我们在火币网放置如下初始仓位：</p>
+<p>BTC：4</p>
+<p>CNY：10,000</p>
+<p>在另一个交易所（比如OKCoin）放置完全相同的初始仓位。当火币网的比特币买一价格（huobi_buy_1）高于OKCoin的卖一价格（okcoin_sell_1）时，计算机程序从OKCoin市价买入一定数量（记为quantity）的比特币，然后立刻在火币网上用市价卖出同等数量的比特币，这个过程完成后，我们持有的总比特币数量不变，但是现金增加了（huobi_buy_1- okcoin_sell_1）*quantity。</p>
+<p><img src="https://pic2.zhimg.com/80/v2-cd5b54d8bd61dc26db1305185552ad1d_720w.png" alt="img"></p>
+<p>当然，实际的搬砖套利过程中，还要处理以下问题：</p>
+<ol>
+<li>怎么对接实盘</li>
+<li>怎么确定每次搬砖套利的quantity</li>
+<li>套利的quantity小于交易所要求的最低交易数量时怎么处理</li>
+<li>先处理买单，还是先处理卖单，还是有其他订单处理机制</li>
+<li>如何保证两个单子的成交数量是一样的</li>
+<li>币价出现波动（比如大幅下跌），怎么办</li>
+<li>什么时候触发交易所之间的比特币转移和资金转移</li>
+<li>想套其他币种（比如莱特币），怎么搞</li>
+</ol>
+<p>这篇小文章将会手把手地告诉您我们是怎么处理这一系列的问题的。</p>
+<p><strong>二、模块介绍</strong></p>
+<p>我们的本地系统是基于Python编写的。Python是目前最流行的量化策略编写和原型系统开发语言，基于Python的各种金融工具、数据处理以及机器学习包都非常丰富，它们极大地提升了量化策略开发者的效率。我们采用Python3作为Python语言的版本。</p>
+<p>\1. 怎么对接实盘</p>
+<p>火币的Python实盘API Demo在这里可以找到：</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/huobiapi/demo_python_v3">GitHub - huobiapi/demo_python_v3</a></p>
+<p>OKCoin的Python实盘API Demon在这里可以找到：</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/OKCoin/rest/tree/master/python">rest/python at master · OKCoin/rest · GitHub</a></p>
+<p>为了方便起见，新建了一个叫做“WeQuantStrategy”的项目，并在该项目下新建了huobi和okcoin两个package，将上面的API Demon中的代码分别导入这两个package。</p>
+<p><img src="https://pic4.zhimg.com/80/v2-f03ca413b5916a9a83c178675f7ac02f_720w.png" alt="img"></p>
+<p>（1）. 基于配置的便捷性考虑，将ACCESS_KEY，SECRET_KEY以及HUOBI_SERVICE_API放入一个特定的Config.py文件。</p>
+<p>Okcoin的目录文件按类似办法处理。 调试执行huobi目录下的HuobiMain.py以及okcoin目录下的Client.py，确保实盘已经接通。</p>
+<p>（2）. 新建两个目录：log和data，分别用来存储日志和持仓记录。</p>
+<p>（3）. 新建package：liveStrategyEngine,并将BanZhuan.py拷贝至该目录下。</p>
+<p>（4）. 搬砖核心代码BanZhuan.py的执行逻辑如下：</p>
+<p><img src="https://pic3.zhimg.com/80/v2-abed86afd46e0ac7e3d1b23e4bbcf0ee_720w.png" alt="img"></p>
+<p>核心逻辑的代码如下：</p>
+<p><img src="https://pic2.zhimg.com/80/v2-9bd3707b813d75c0863ec880d15c19ed_720w.png" alt="img"></p>
+<p>可以看到，套利的quantity小于交易所要求的最低交易数量时，程序是不会执行接下来的搬砖逻辑的。</p>
+<p>另外，程序是先处理卖单，再处理买单，理由是，比特币是浮动资产，先变现再购入浮动资产是一种最优的短时期仓位控制方法。</p>
+<p>为了保证两个单子的成交数量是一样的，搬砖逻辑在执行买单前，需要拿到前面卖单的执行结果，然后根据该结果来设置需要买的数量。</p>
+<p>执行结果展示：</p>
+<blockquote>
+<p>/anaconda/bin/python/Users/janes/PycharmProjects/wequantstrategy/liveStrategyEngine/BanZhuan.py</p>
+<p>2021-11-0216:11:23,600 - timeLog - INFO - log started at 2016-11-02 16:11:23.598727</p>
+<p>2021-11-0216:11:27,349 - timeLog - INFO - waiting for 1.000000 seconds for next cycle…</p>
+<p>2021-11-0216:11:31,954 - timeLog - INFO - Found signal</p>
+<p>2021-11-0216:11:31,954 - timeLog - INFO - huobiDepth:{‘bids’: [[4952.8, 0.335]],’symbol’: ‘btccny’, ‘asks’: [[4953.61, 1.001]]}</p>
+<p>2021-11-0216:11:31,954 - timeLog - INFO - okcoinDepth:{‘bids’: [[4948.36, 0.319]],’asks’: [[4948.37, 2.29]]}</p>
+<p>2021-11-0216:11:31,955 - timeLog - INFO - Qty:0.000000 is smaller than exchange minimumquantity(huobi min:0.000100, okcoin min:0.010200),so ignore this signal</p>
+<p>2021-11-0216:11:31,955 - timeLog - INFO - waiting for 1.000000 seconds for next cycle…</p>
+<p>2021-11-0216:11:35,036 - timeLog - INFO - Found signal</p>
+<p>2021-11-0216:11:35,036 - timeLog - INFO - huobiDepth:{‘bids’: [[4954.15, 0.844]],’symbol’: ‘btccny’, ‘asks’: [[4954.29, 0.046]]}</p>
+<p>2021-11-0216:11:35,036 - timeLog - INFO - okcoinDepth:{‘bids’: [[4949.18, 0.002]],’asks’: [[4949.32, 0.03]]}</p>
+<p>2021-11-0216:11:35,036 - timeLog - INFO - Qty:0.000000 is smaller than exchange minimumquantity(huobi min:0.000100, okcoin min:0.010200),so ignore this signal</p>
+</blockquote>
+<p>以上没有执行搬砖逻辑，是因为本帐号在火币的比特币数量为零。为了调试该程序，我们到火币平台（<a target="_blank" rel="noopener" href="http://www.huobi.com/">比特币交易平台</a>）上去购买一些比特币，再次启动该搬砖程序后，效果如下：</p>
+<p>搬砖策略执行结果如下：</p>
+<blockquote>
+<p>/anaconda/bin/python/Users/janes/PycharmProjects/wequantstrategy/liveStrategyEngine/BanZhuan.py</p>
+<p>2021-11-0216:30:08,056 - timeLog - INFO - log started at 2016-11-02 16:30:08.055331</p>
+<p>2021-11-0216:30:12,142 - timeLog - INFO - waiting for 1.000000 seconds for next cycle…</p>
+<p>2021-11-0216:30:14,024 - timeLog - INFO - Found signal</p>
+<p>2021-11-0216:30:14,024 - timeLog - INFO - huobiDepth:{‘asks’: [[4972.22, 0.0711]],’bids’: [[4972, 6.7193]], ‘symbol’: ‘btccny’}</p>
+<p>2021-11-0216:30:14,024 - timeLog - INFO - okcoinDepth:{‘asks’: [[4961.74, 0.085]],’bids’: [[4961.54, 4.086]]}</p>
+<p>2021-11-0216:30:18,937 - timeLog - INFO - placed below market sell order into huobi withquantity: 0.060000, cash amount:298.32</p>
+<p>2021-11-0216:30:18,937 - timeLog - INFO - {‘order_amount’: ‘0.0600’, ‘total’: ‘298.32’,’processed_amount’: ‘0.0600’, ‘fee’: ‘0.00’, ‘status’: 2, ‘type’: 4, ‘id’:2522097966, ‘vot’: ‘298.32’, ‘order_price’: ‘0.00’, ‘processed_price’:’4972.06’}</p>
+<p>2021-11-0216:30:18,937 - timeLog - INFO - the market sell orderin huobi has been executed with filled quantity: 0.060000, received cash:298.32**</p>
+<p>2021-11-0216:30:21,509 - timeLog - INFO - placed below market buy order into okcoin withquantity: 0.060000, cash amount: 297.70</p>
+<p>2021-11-0216:30:21,509 - timeLog - INFO - {‘orders’: [{‘amount’: 0, ‘orders_id’:6260001033, ‘order_id’: 6260001033, ‘symbol’: ‘btc_cny’, ‘create_date’:1478075421000, ‘price’: 297.7, ‘avg_price’: 4961.36, ‘deal_amount’: 0.06,’type’: ‘buy_market’, ‘status’: 2}], ‘result’: True}</p>
+<p>2021-11-0216:30:21,509 - timeLog - INFO - the market buy order inokcoin has been executed with filled quantity: 0.060000, spent cash: 297.68**</p>
+</blockquote>
+<p>可以看到，就在短短的时间内，我们通过在火币网上卖0.06个比特币，在okcoin上买0.06个比特币，就盈利298.32-297.68 = 0.54元</p>
+<p>实际上，这个策略可以全天候开启，目前火币网和okcoin的价差还是稳定存在着的，也就意味着这个策略可以全天候帮我们挣钱！</p>
+<p><strong>三、币值出现波动，如何对冲</strong></p>
+<p>采用在BitVC（<a target="_blank" rel="noopener" href="http://bitvc.com/">http://bitvc.com</a>)上做空比特币期货的方式，对冲掉了底仓BTC的头寸。也就是说，如果币值大幅下跌，我们还可以从BitVC上的空单交易中获取相应的补偿，从而保护了整个投资组合的收益。</p>
+<p>当然，我们还可以火币网上申请BTC杠杆来作为底仓，如果币值大幅下跌，我们可以以非常低的价格买回BTC归还这部分杠杆，从而也能保护整个投资组合的收益。</p>
+<p><strong>四、什么时候触发交易所之间的比特币转移</strong></p>
+<p>方案是为两个交易所设置BTC最低仓位线，如果任一交易所的BTC仓位触及该最低线，就触发了一次交易所之间的比特币转移和资金转账。转移的结果是两边交易所的币值相等，人民币相等。</p>
+<p><strong>五、想要套其他币种（比如莱特币），怎么做？</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#本交易策略支持多币种，如果要进行莱特币搬砖套利，直接修改Banzhuan.py</span></span><br><span class="line"><span class="comment">#最底下的代码如下：</span></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">    # btc</span></span><br><span class="line"><span class="string">    strat =BanzhuanStrategy(datetime.datetime.now(), 0.8, 1, 0.1, </span></span><br><span class="line"><span class="string">30,helper.COIN_TYPE_BTC_CNY, dailyExitTime=&quot;23:30:00&quot;)</span></span><br><span class="line"><span class="string">    strat.go()</span></span><br><span class="line"><span class="string">    &#x27;&#x27;&#x27;</span></span><br><span class="line">    ltcstrat =BanzhuanStrategy(datetime.datetime.now(), <span class="number">0.8</span>, <span class="number">1</span>, <span class="number">0.1</span>, </span><br><span class="line"><span class="number">30</span>, helper.COIN_TYPE_LTC_CNY,dailyExitTime=<span class="string">&quot;23:30:00&quot;</span>)</span><br><span class="line">    strat.go()</span><br></pre></td></tr></table></figure></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">CryptoQuantTech</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://cryptoquanttech.github.io/2022/01/07/%E6%90%AC%E7%A0%96%E5%A5%97%E5%88%A9/">https://cryptoquanttech.github.io/2022/01/07/%E6%90%AC%E7%A0%96%E5%A5%97%E5%88%A9/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93/">量化交易</a><a class="post-meta__tags" href="/tags/%E6%90%AC%E7%A0%96%E5%A5%97%E5%88%A9/">搬砖套利</a></div><div class="post_share"><div class="social-share" data-image="https://s2.loli.net/2021/12/21/BAYbmvrPcjp4aOJ.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/01/07/%E5%A4%B9%E5%AD%90%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8E%9F%E7%90%86/"><img class="next-cover" src="https://s2.loli.net/2021/12/21/BAYbmvrPcjp4aOJ.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">夹子机器人原理</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/2021/12/08/%E5%A4%B9%E5%AD%90%E6%9C%BA%E5%99%A8%E4%BA%BA%20%E5%A4%B9%E5%8D%95%E6%9C%BA%E5%99%A8%E4%BA%BA/" title="夹子机器人 夹单机器人 三明治机器人"><img class="cover" src="https://s2.loli.net/2021/12/21/BAYbmvrPcjp4aOJ.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-12-08</div><div class="title">夹子机器人 夹单机器人 三明治机器人</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://s2.loli.net/2021/12/21/kjrfoA8YxaIV6cM.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">CryptoQuantTech</div><div class="author-info__description">研究虚拟货币量化交易，为发展中文社区贡献一份力量</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">3</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">4</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B0%8F%E7%99%BD%E6%90%AD%E5%BB%BA%E6%AF%94%E7%89%B9%E5%B8%81%E6%90%AC%E7%A0%96%E5%A5%97%E5%88%A9%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.</span> <span class="toc-text">小白搭建比特币搬砖套利系统</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/01/07/%E6%90%AC%E7%A0%96%E5%A5%97%E5%88%A9/" title="搬砖套利"><img src="https://s2.loli.net/2021/12/21/BAYbmvrPcjp4aOJ.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="搬砖套利"/></a><div class="content"><a class="title" href="/2022/01/07/%E6%90%AC%E7%A0%96%E5%A5%97%E5%88%A9/" title="搬砖套利">搬砖套利</a><time datetime="2022-01-07T04:26:30.000Z" title="Created 2022-01-07 12:26:30">2022-01-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/01/07/%E5%A4%B9%E5%AD%90%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8E%9F%E7%90%86/" title="夹子机器人原理"><img src="https://s2.loli.net/2021/12/21/BAYbmvrPcjp4aOJ.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="夹子机器人原理"/></a><div class="content"><a class="title" href="/2022/01/07/%E5%A4%B9%E5%AD%90%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8E%9F%E7%90%86/" title="夹子机器人原理">夹子机器人原理</a><time datetime="2022-01-07T04:26:16.000Z" title="Created 2022-01-07 12:26:16">2022-01-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/12/08/%E5%A4%B9%E5%AD%90%E6%9C%BA%E5%99%A8%E4%BA%BA%20%E5%A4%B9%E5%8D%95%E6%9C%BA%E5%99%A8%E4%BA%BA/" title="夹子机器人 夹单机器人 三明治机器人"><img src="https://s2.loli.net/2021/12/21/BAYbmvrPcjp4aOJ.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="夹子机器人 夹单机器人 三明治机器人"/></a><div class="content"><a class="title" href="/2021/12/08/%E5%A4%B9%E5%AD%90%E6%9C%BA%E5%99%A8%E4%BA%BA%20%E5%A4%B9%E5%8D%95%E6%9C%BA%E5%99%A8%E4%BA%BA/" title="夹子机器人 夹单机器人 三明治机器人">夹子机器人 夹单机器人 三明治机器人</a><time datetime="2021-12-08T02:00:00.000Z" title="Created 2021-12-08 10:00:00">2021-12-08</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2017 - 2022 By CryptoQuantTech</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
